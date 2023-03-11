@@ -1,0 +1,21 @@
+.name,
+.email {
+    margin-top: 2px;
+    display: block;
+}
+.para {
+width: 300px;
+display: inline-block;
+vertical-align: middle;
+}
+
+.img {
+   margin-left: 30px;
+   width: 100px;
+}
+.google {
+   border-radius: 50px;
+   display: block;
+   vertical-align: middle;  
+}
+

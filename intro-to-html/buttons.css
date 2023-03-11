@@ -1,0 +1,204 @@
+.subscribe{
+    background-color: rgb(243, 3, 3);
+    border: 0ch;
+    width: 100px;
+    color:aliceblue;
+    height: 30px;
+    border-radius: 2px;
+    width: 105px;
+    cursor: pointer;
+    margin-right:8px; /* it help to space outside the button*/
+    padding: 8px; /* it help to space inside the button  */
+    /* vertical-align: top;  it just a property align the object in line */
+    transition: opacity 0.15s;
+}
+
+/* .subscribe:hover{
+    background-color: green;
+}
+.subscribe:active {
+    background-color: rgb(7, 179, 247);
+} */
+.subscribe:hover {
+    opacity: 0.4; /* to fade out a object 
+    (its' goes between 0 to 1)*/  /* */
+}
+.subscribe:active {
+    opacity: 0.5;
+}
+
+.join{
+    background-color:white;
+    border-color: rgb(3, 3, 182);
+    border-style: solid;
+    width: 100px;
+    color:blue;
+    height: 30px;
+    border-radius: 3px;
+    width: 80px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.15s, 
+    color 0.15s;
+
+}
+.join:hover{
+    background: rgb(2, 2, 170);
+    color: white;
+}
+.join:active {
+    opacity: 0.7;
+}
+
+.twitter{
+    background-color: rgb(3, 187, 243);
+    border: 0ch;
+    width: 50px;
+    color:aliceblue;
+    height: 30px;
+    border-radius: 25px;
+    width: 74px;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+}
+.twitter:hover{
+    background-color: blue;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15); 
+    /* here a is as a opacity value */
+}
+
+.stock {
+    color: rgb(0,118,0);
+    font-weight: bold;
+}
+
+.cart {
+    background-color: rgb(255, 213, 0);
+    border-radius: 25px;
+    height: 25px;
+    width: 105px;
+    border: 0ch;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.cart:hover{
+    background: pink;
+}
+
+.buy {
+    background-color: rgb(255, 164, 28);
+    border-radius: 25px;
+    height: 25px;
+    width: 105px;
+    border: 0ch;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buy:hover{
+    background: green;
+}
+
+/* exercise css */
+
+.uber {
+    background-color: rgb(43, 1, 43);
+    color: white;
+    height: 30px;
+    width: 105px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.uber:hover {
+    opacity: 0.5;
+}
+.uber:active {
+    opacity: 0.15;
+}
+
+.github {
+    background-color: green;
+    height: 30px;
+    width: 105px;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+.github:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+}
+
+.bootstrap {
+    background-color: rgb(177, 7, 177);
+    height: 30px;
+    width: 105px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+.bootstrap:hover {
+   background-color: aqua;
+}
+.download {
+    background-color: white;
+    height: 30px;
+    width: 105px;
+    font-weight: bolder;
+    border-radius: 3px;
+    cursor: pointer; 
+    border-width: 1.7px;
+}
+.download:hover {
+    color: blue;
+}
+
+.linkedin {
+    background-color: rgb(3, 3, 177);
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    cursor: pointer; 
+    margin-right: 5px;
+}
+.linkedin:hover {
+    background-color: chartreuse;
+}
+.save {
+    background-color: white;
+    height: 30px;
+    width: 80px;
+    color: blue;
+    font-weight: bolder;
+    border-radius: 15px;
+    cursor: pointer;
+    border-width: 1.5px;
+   
+}
+.model {
+    color: black;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
+.del {
+    color: black;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: large;
+}
+.del:hover {
+    text-decoration: underline;
+}
